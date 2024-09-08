@@ -1,0 +1,12 @@
+server:
+  port: 8002
+  
+xxl:
+  job:
+    admin:
+      addresses: http://job-control-center:8001
+    accessToken: default_token
+    executor:
+      appname: job-executor
+      port: 3333
+      logpath: /logs
